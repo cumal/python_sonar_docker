@@ -1,4 +1,4 @@
-FROM python:8-jre-slim
+FROM python:3.7.2-stretch
 
 ENV SONAR_SCANNER_VERSION 3.1.0.1141
 ENV SONAR_OPTS ''
